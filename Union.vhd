@@ -102,7 +102,7 @@ begin
 		--ADD
 		Inst_Add: Add PORT MAP(
 		Registre1_add => aux_npc,
-		Registre2_add => "00000000000000000000000000000100",
+		Registre2_add => "00000000000000000000000000000001",
 		Registreout_add => aux_add
 	);
 	

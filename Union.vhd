@@ -85,6 +85,15 @@ COMPONENT PC
 	signal aux_cu : std_logic_vector(5 downto 0);
 	
 begin
+
+		--NPC
+	   Inst_nPC: PC PORT MAP(
+		Registre_PC => aux_add,
+		Reset => Reset_union,
+		Clk => Clk_union,
+		Registreout_PC => aux_npc
+	);
+
 		--PC
 		Inst_PC: PC PORT MAP(
 		Registre_PC => aux_npc,
@@ -92,17 +101,10 @@ begin
 		Clk => Clk_union,
 		Registreout_PC => aux_pc 
 	);
-		--NPC
-	   Inst_nPC: PC PORT MAP(
-		Registre_PC => aux_Add,
-		Reset => Reset_union,
-		Clk => Clk_union,
-		Registreout_PC => aux_npc
-	);
 		--ADD
 		Inst_Add: Add PORT MAP(
 		Registre1_add => aux_npc,
-		Registre2_add => "00000000000000000000000000000100",
+		Registre2_add => "00000000000000000000000000000001",
 		Registreout_add => aux_add
 	);
 	

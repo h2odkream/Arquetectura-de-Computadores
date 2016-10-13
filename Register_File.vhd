@@ -20,6 +20,7 @@ begin
 
 process(Rs1_RF, Rs2_RF, Rd_RF, Reset, DataTowrite )
 	begin
+		registers(0) <= x"00000000";--para asegurar que se quede en ceros g0
 		if(Reset = '1') then
 			Crs1 <= (others => '0');
 			Crs2 <= (others => '0');

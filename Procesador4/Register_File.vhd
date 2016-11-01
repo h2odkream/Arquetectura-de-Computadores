@@ -14,7 +14,7 @@ end Register_File;
 
 architecture Arq_register_file of Register_file is
 
-			type Memory_RF is array (0 to 63) of STD_LOGIC_VECTOR (31 downto 0);
+			type Memory_RF is array (0 to 39) of STD_LOGIC_VECTOR (31 downto 0);
 			signal registers : Memory_RF :=(others => x"00000000");
 begin
 

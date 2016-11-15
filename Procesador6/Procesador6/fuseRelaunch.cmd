@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/karenTatiana/Desktop/Arquetectura-de-Computadores/Procesador6/Procesador6/Tb_union_isim_beh.exe" -prj "C:/Users/karenTatiana/Desktop/Arquetectura-de-Computadores/Procesador6/Procesador6/Tb_union_beh.prj" "work.Tb_union" 

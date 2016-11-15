@@ -69,8 +69,8 @@ COMPONENT PC
 	COMPONENT CU
 	PORT(
 		Op : IN std_logic_vector(1 downto 0);
-		Op2 : IN std_logic_vector(5 downto 0); 
-		op3 : IN std_logic_vector(2 downto 0);
+		Op2 : IN std_logic_vector(2 downto 0); 
+		op3 : IN std_logic_vector(5 downto 0);
 		icc : IN std_logic_vector(3 downto 0);
 		cond : IN std_logic_vector(3 downto 0);          
 		Aluop : OUT std_logic_vector(5 downto 0);

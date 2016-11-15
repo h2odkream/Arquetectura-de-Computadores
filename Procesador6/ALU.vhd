@@ -3,7 +3,7 @@ Library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 use IEEE.NUMERIC_STD.ALL;
-
+--Esto es una prueba
 entity ALU is
     Port ( Registro1_ALU : in  STD_LOGIC_VECTOR (31 downto 0);
            Registro2_ALU : in  STD_LOGIC_VECTOR (31 downto 0);
